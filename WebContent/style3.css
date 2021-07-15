@@ -1,0 +1,27 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-size: cover;
+}
+
+.loginbox {
+	position: absolute;
+	top: 52%;
+	left: 80%;
+	transform: translate(-50%, -50%);
+	width: 360px;
+	box-sizing: border-box;
+}
+
+.loginbox input[type="submit"] {
+	background: transparent;
+	box-shadow: 0 10px 20px rgba(5, 5, 5, 1);
+	border-radius: 5px;
+	outline: none;
+	height: 70px;
+	width: 200px;
+	font-size: 20px;
+	color: #ffffff;
+	cursor: pointer;
+}
